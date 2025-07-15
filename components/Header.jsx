@@ -39,7 +39,7 @@ const Header = () => {
   whileInView={{ opacity: 1 }}
   transition={{ duration: 0.6, delay: 0.7 }}
   className='max-w-2xl mx-auto font-Ovo'>
-  Fresher <b>Full Stack Developer (MERN Stack)</b> passionate about building responsive web applications.  
+   <b>Full Stack Developer (MERN Stack)</b> passionate about building responsive web applications.<br/>
   Eager to learn, solve problems, and grow as a software developer.
 </motion.p>
 
