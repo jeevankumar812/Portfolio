@@ -54,8 +54,8 @@ const About = ({ isDarkMode }) => {
             building scalable and responsive web applications. I enjoy working on both frontend and backend, delivering clean and efficient solutions.
             <br /><br />
             I actively practice <b>Data Structures & Algorithms</b> to strengthen my problem-solving skills and regularly solve coding challenges on 
-            <a href="https://leetcode.com/u/kjeevankumar08/" target="_blank" className="text-blue-500 hover:underline"> LeetCode</a> and 
-            <a href="https://www.geeksforgeeks.org/user/jeevankumar08/" target="_blank" className="text-green-600 hover:underline"> GeeksforGeeks</a>.
+            <a href="https://leetcode.com/problemset/" target="_blank" className="text-blue-500 hover:underline"> LeetCode</a> and 
+            <a href="https://www.geeksforgeeks.org/" target="_blank" className="text-green-600 hover:underline"> GeeksforGeeks</a>.
              Being a fresher, I am eager to contribute to real-world projects, collaborate with teams, and grow as a proficient software engineer.
             </p>
 
@@ -124,7 +124,7 @@ const About = ({ isDarkMode }) => {
               whileHover={{ scale: 1.1 }}
               className='flex items-center justify-center px-4 py-2 border border-gray-400 
               rounded-lg cursor-pointer hover:-translate-y-1 duration-500 dark:border-white'>
-              <a href="https://leetcode.com/YOUR_USERNAME" target="_blank"
+              <a href="https://leetcode.com/u/kjeevankumar08/" target="_blank"
                 className='text-yellow-600 dark:text-yellow-400 font-semibold'>LeetCode</a>
             </motion.li>
 
@@ -132,7 +132,7 @@ const About = ({ isDarkMode }) => {
               whileHover={{ scale: 1.1 }}
               className='flex items-center justify-center px-4 py-2 border border-gray-400 
               rounded-lg cursor-pointer hover:-translate-y-1 duration-500 dark:border-white'>
-              <a href="https://auth.geeksforgeeks.org/user/YOUR_USERNAME/practice" target="_blank"
+              <a href="https://www.geeksforgeeks.org/user/jeevankumar08/" target="_blank"
                 className='text-green-600 dark:text-green-400 font-semibold'>GeeksforGeeks</a>
             </motion.li>
 
