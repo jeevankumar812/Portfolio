@@ -8,13 +8,18 @@ const Header = () => {
     <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4'>
 
       {/* --- Profile Image --- */}
-      <motion.div
-        initial={{ scale: 0 }}
-        whileInView={{ scale: 1 }}
-        transition={{ duration: 0.8, type: 'spring', stiffness: 100 }}
-      >
-        <Image src={assets.profile_img} alt='Profile' className='rounded-full w-32' />
-      </motion.div>
+<motion.div
+  initial={{ scale: 0 }}
+  whileInView={{ scale: 1 }}
+  transition={{ duration: 0.8, type: 'spring', stiffness: 100 }}
+>
+  <Image 
+    src={assets.jeevan} 
+    alt='Profile' 
+    className='rounded-full w-32 h-32 object-cover' 
+  />
+</motion.div>
+
 
       {/* --- Name & Intro --- */}
       <motion.h3

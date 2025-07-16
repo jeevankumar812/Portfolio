@@ -32,14 +32,19 @@ const About = ({ isDarkMode }) => {
         transition={{ duration: 0.8 }}
         className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
 
-        {/* --- Profile Image --- */}
+       {/* --- Profile Image --- */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6 }}
           className='w-64 sm:w-80 rounded-3xl max-w-none'>
-          <Image src={assets.user_image} alt='user' className='w-full rounded-3xl' />
+          <Image src={assets.jeevan} alt='user' className='w-full rounded-3xl' />
         </motion.div>
+
+
+
+
+
 
         {/* --- About Content --- */}
         <motion.div
