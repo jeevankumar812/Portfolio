@@ -61,7 +61,7 @@ const About = ({ isDarkMode }) => {
             I actively practice <b>Data Structures & Algorithms</b> to strengthen my problem-solving skills and regularly solve coding challenges on 
             <a href="https://leetcode.com/problemset/" target="_blank" className="text-blue-500 hover:underline"> LeetCode</a> and 
             <a href="https://www.geeksforgeeks.org/" target="_blank" className="text-green-600 hover:underline"> GeeksforGeeks</a>.
-             Being A fresher, I am eager to contribute to real-world projects, collaborate with teams, and grow as a proficient software engineer.
+             Being a fresher, I am eager to contribute to real-world projects, collaborate with teams, and grow as a proficient software engineer.
             </p>
 
 
